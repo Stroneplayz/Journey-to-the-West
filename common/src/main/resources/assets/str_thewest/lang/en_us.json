@@ -1,3 +1,6 @@
 {
-  "item.str_thewest.bo_staff": "Wooden Bo Staff"
+  "item.str_thewest.bo_staff_bam": "Bamboo Bō Staff",
+  "item.str_thewest.bo_staff": "Bō Staff",
+
+  "category.thewest_tab_weapons": "Martial Weapons"
 }

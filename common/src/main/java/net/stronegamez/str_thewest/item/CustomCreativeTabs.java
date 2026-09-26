@@ -12,11 +12,11 @@ import net.stronegamez.str_thewest.ToTheWest;
 public class CustomCreativeTabs {
     private static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(ToTheWest.MOD_ID, Registries.CREATIVE_MODE_TAB);
 
-    public static RegistrySupplier<CreativeModeTab> THEWEST_TABS;
+    public static RegistrySupplier<CreativeModeTab> THEWEST_WEAPONS_TABS;
 
     public static void initTabs(){
-        THEWEST_TABS = TABS.register("thewest_tab", () -> CreativeTabRegistry
-                .create(Component.translatable("category.tutorial_tab"), () -> new ItemStack(ModItems.BO_STAFF)));
+        THEWEST_WEAPONS_TABS = TABS.register("thewest_weapons_tab", () -> CreativeTabRegistry
+                .create(Component.translatable("category.thewest_tab_weapons"), () -> new ItemStack(ModItems.BO_STAFF)));
 
         TABS.register();
     }

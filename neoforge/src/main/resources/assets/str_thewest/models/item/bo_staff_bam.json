@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/handheld",
+
+  "loader": "neoforge:separate_transforms",
+
+  "base": {
+
+    "parent": "str_thewest:item/bo_staff_bam_3d"
+
+  },
+
+  "perspectives": {
+
+    "gui": {
+
+      "parent": "str_thewest:item/bo_staff_bam_2d"
+    },
+
+    "ground": {
+
+      "parent": "str_thewest:item/bo_staff_bam_3d"
+    },
+
+    "fixed": {
+
+      "parent": "str_thewest:item/bo_staff_bam_2d"
+    }
+  }
+}

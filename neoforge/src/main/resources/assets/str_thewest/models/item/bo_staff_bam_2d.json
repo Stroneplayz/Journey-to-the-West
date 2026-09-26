@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "str_thewest:item/bo_staff_icon"
+    "layer0": "str_thewest:item/bo_staff_boicon"
   }
 }

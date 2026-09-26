@@ -1,3 +1,6 @@
 {
-  "item.str_thewest.bo_staff": "棍"
+  "item.str_thewest.bo_staff": "棍",
+  "item.str_thewest.bo_staff_bam": "竹棍",
+
+  "category.thewest_tab_weapons": "军用武器"
 }

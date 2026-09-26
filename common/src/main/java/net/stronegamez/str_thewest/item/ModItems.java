@@ -13,9 +13,13 @@ public class ModItems{
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ToTheWest.MOD_ID, Registries.ITEM);
 
     public static RegistrySupplier<Item> BO_STAFF;
+    public static RegistrySupplier<Item> BO_STAFF_BAM;
 
     public static void initItems() {
-        BO_STAFF = registerItem("bo_staff", () -> new Item(baseProperties("bo_staff").arch$tab(CustomCreativeTabs.THEWEST_TABS)));
+        BO_STAFF_BAM = registerItem("bo_staff_bam", () -> new Item(baseProperties("bo_staff_bam")
+                .arch$tab(CustomCreativeTabs.THEWEST_WEAPONS_TABS)));
+        BO_STAFF = registerItem("bo_staff", () -> new Item(baseProperties("bo_staff")
+                .arch$tab(CustomCreativeTabs.THEWEST_WEAPONS_TABS)));
 
         ITEMS.register();
     }
