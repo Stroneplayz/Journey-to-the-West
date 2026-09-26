@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "str_thewest",
+  "version": "${version}",
+  "name": "Journey To The West",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/str_thewest/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.stronegamez.str_thewest.fabric.ToTheWestFabric"
+    ],
+    "client": [
+      "net.stronegamez.str_thewest.fabric.client.ExampleModFabricClient"
+    ]
+  },
+  "mixins": [
+    "str_thewest.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.11",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

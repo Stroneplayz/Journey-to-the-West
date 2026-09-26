@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/handheld",
+
+  "loader": "forge:separate_transforms",
+
+  "base": {
+
+    "parent": "str_thewest:item/bo_staff_3d"
+
+  },
+
+  "perspectives": {
+
+    "gui": {
+
+      "parent": "str_thewest:item/bo_staff_2d"
+    },
+
+    "ground": {
+
+      "parent": "str_thewest:item/bo_staff_3d"
+    },
+
+    "fixed": {
+
+      "parent": "str_thewest:item/bo_staff_2d"
+    }
+  }
+}

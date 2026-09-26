@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "craft_zero:item/bo_staff_icon"
+  }
+}
